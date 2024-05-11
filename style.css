@@ -1,0 +1,129 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: max-content;
+  backdrop-filter: brightness(50%);
+  background: url("fotokrida1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: 600;  
+}
+
+.navbar .logo span {
+  color: blue;
+}
+
+.navbar .menu-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+} 
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+.navbar a:hover {
+  color: aquamarine;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  color: rgb(255, 255, 255);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
+}
+
+.hero-section .content h1 {
+  font-size: 3rem;
+  max-width: 600px;
+}
+
+.hero-section .content p {
+  font-weight: 300;
+  margin-top: 15px;
+  max-width: 600px;
+}
+
+.hero-section .content button {
+  background: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-section .content button:hover {
+  color: #fff;
+  background: aquamarine;
+}
+
+footer {
+  color: #fff;
+  padding: 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}

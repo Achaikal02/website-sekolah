@@ -12,7 +12,7 @@ body {
     margin: 0;
     overflow: scroll; 
     overflow-x: hidden;
-    background: url("fotokrida29.JPG") center/cover fixed; 
+    background: url("fotokrida29.jpg") center/cover fixed; 
 }  
 
 body::before {
